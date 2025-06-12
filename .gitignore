@@ -203,3 +203,8 @@ debug.log
 mcp_logs/
 mcp_temp/
 server_debug.log
+
+# Legacy server versions (keep locally but not in git)
+server_fastmcp.py
+server_fastmcp_fixed.py
+server_fastmcp_fixed_v2.py
