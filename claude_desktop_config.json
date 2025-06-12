@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "command-execution": {
+      "command": "python",
+      "args": ["C:\\Users\\User\\Desktop\\mcp_command_server\\server.py"],
+      "env": {
+        "PYTHONPATH": "C:\\Users\\User\\Desktop\\mcp_command_server"
+      }
+    }
+  }
+}

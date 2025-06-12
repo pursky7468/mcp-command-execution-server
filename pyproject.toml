@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-command-server"
+version = "1.0.0"
+description = "MCP server for command execution tools"
+dependencies = [
+    "mcp>=1.0.0"
+]
+
+[project.scripts]
+mcp-command-server = "server:main"
